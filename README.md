@@ -12,7 +12,9 @@
 | `assets/main.js` | 동작 (메뉴, 스크롤 모션, 사진 전환, 설명회 자동 숨김) |
 | `assets/img/room-1.jpg`, `room-2.jpg` | 열람실 사진 |
 | `assets/img/og.jpg` | 카카오톡·SNS에 링크를 붙였을 때 보이는 미리보기 사진 |
-| `favicon.svg` | 브라우저 탭 아이콘 |
+| `assets/img/logo.png` | 로고 원본 (투명 배경, 네이비 글자) |
+| `assets/img/logo-light.png` | 네이비 바탕용 로고 (글자만 밝은 색) |
+| `favicon.png`, `apple-touch-icon.png` | 브라우저 탭 아이콘, 폰 홈 화면 아이콘 |
 | `.nojekyll` | 깃허브 페이지용 빈 파일 (지우지 마세요) |
 
 ## 깃허브 페이지로 올리기
@@ -22,7 +24,7 @@
 1. 깃허브에서 새 저장소를 만듭니다. Public으로 설정합니다.
    - 통과: 빈 저장소 화면이 보입니다.
 2. `uploading an existing file`을 누르고, 이 폴더 **안의 내용물 전체**를 끌어다 놓습니다. 폴더째가 아니라 `index.html`이 맨 위에 오도록 올립니다.
-   - 통과: 저장소 첫 화면에 `index.html`, `assets`, `favicon.svg`가 보입니다.
+   - 통과: 저장소 첫 화면에 `index.html`, `assets`, `favicon.png`가 보입니다.
    - 중단: `yusin-academy-web/index.html`처럼 폴더 안에 들어가 있으면 지우고 다시 올립니다.
    - 참고: `.nojekyll`은 숨김 파일이라 끌어다 놓을 때 빠질 수 있습니다. 빠졌으면 `Add file → Create new file`에서 이름을 `.nojekyll`로 하고 내용 없이 저장합니다.
 3. `Settings → Pages`에서 Source를 `Deploy from a branch`, Branch를 `main` / `/ (root)`로 고르고 Save를 누릅니다.
