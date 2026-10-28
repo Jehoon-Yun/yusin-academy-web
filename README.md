@@ -10,7 +10,10 @@
 | `index.html` | 페이지 본문 (문구, 가격, 링크) |
 | `assets/style.css` | 디자인 (색, 글씨, 배치, PC·모바일 구분) |
 | `assets/main.js` | 동작 (메뉴, 스크롤 모션, 사진 전환, 설명회 자동 숨김) |
-| `assets/img/room-1.jpg`, `room-2.jpg` | 열람실 사진 |
+| `assets/img/room-1.webp`, `room-2.webp` | 열람실 사진 (용량이 작은 WebP 형식) |
+| `assets/img/mentor-ham.webp` | 함석환 세무사 프로필 사진 |
+| `robots.txt`, `sitemap.xml` | 검색엔진 수집 안내, 다음 웹마스터도구 인증 줄, 페이지 목록 |
+| `CNAME` | 연결된 도메인 (yusinacademy.com) |
 | `assets/img/og.jpg` | 카카오톡·SNS에 링크를 붙였을 때 보이는 미리보기 사진 |
 | `assets/img/logo.png` | 로고 원본 (투명 배경, 네이비 글자) |
 | `assets/img/logo-light.png` | 네이비 바탕용 로고 (글자만 밝은 색) |
@@ -76,8 +79,8 @@ git push -u origin main
 
 ### 설명회 안내
 
-설명회 띠와 설명회 섹션은 2026년 10월 19일 21시가 지나면 자동으로 숨겨집니다.
-다음 설명회를 열 때는 `index.html`의 날짜 문구와 `assets/main.js`의 아래 날짜를 함께 바꿉니다.
+10월 19일 설명회가 끝나서, 설명회 띠와 설명회 섹션은 지금 `index.html`에서 빠져 있습니다.
+다음 설명회를 열 때는 Claude에게 날짜와 프로그램을 알려주면 다시 넣어 줍니다.
 
 ```js
 new Date('2026-10-19T21:00:00+09:00')
