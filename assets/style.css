@@ -553,3 +553,7 @@ a[href^="tel:"]:active{opacity:.7}
 .cv li::before{content:"";position:absolute;left:1px;top:.95em;width:5px;height:5px;border-radius:50%;background:var(--gold-ink)}
 @media (max-width:760px){.cv li{font-size:.9rem}}
 @media (max-width:420px){.mentor:has(.cv){grid-template-columns:1fr}.mentor:has(.cv) .ph{width:96px}}
+
+/* 멘토 프로필 사진 */
+.ph.photo{display:block;width:100%;height:auto;padding:0;object-fit:cover;object-position:50% 20%;background:var(--soft)}
+@media (max-width:420px){.mentor:has(.cv) .ph.photo{width:120px}}
